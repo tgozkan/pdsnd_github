@@ -1,5 +1,6 @@
 ### Date created
-Created on June 21, 2019
+Python project created on June 21, 2019
+Git Repository created on June 28, 2019
 
 ### Project Title
 Title: Bikeshare.py
