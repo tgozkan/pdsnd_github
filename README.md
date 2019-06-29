@@ -5,7 +5,7 @@ Created on June 21, 2019
 Title: Bikeshare.py
 
 ### Description
-Describe what your project is about and what it does
+This project is about bikeshare system in Chicago, New York and Washington. Project asks user to enter a city with month and day of the week filters and analyzes some statistics for the filters.
 
 ### Files used
 Include the files used
