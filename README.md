@@ -8,7 +8,10 @@ Title: Bikeshare.py
 This project is about bikeshare system in Chicago, New York and Washington. Project asks user to enter a city with month and day of the week filters and analyzes some statistics for the filters.
 
 ### Files used
-Include the files used
+bikeshare_tugba.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I used a lot of google searching for this project.
