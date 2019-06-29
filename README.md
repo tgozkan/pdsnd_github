@@ -14,4 +14,4 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-I used a lot of google searching for this project.
+I used a lot of google searching for this project and Udacity Knowledge section to specific questions.
