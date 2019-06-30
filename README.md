@@ -1,16 +1,18 @@
 ### Date created
-Project created on June 21th, README file on June 29th
+Python project created on June 21, 2019
+Git Repository created on June 28, 2019
+
 ### Project Title
-Bikeshare_Tugba project
+Replace the Project Title
 
 ### Description
-This python project analyzes bike sharing system in Chicago, New York City, Washington upon user entry.
+This project is about bikeshare system in Chicago, New York and Washington. Project asks user to enter a city with month and day of the week filters and analyzes some statistics for the filters.
 
 ### Files used
-Bikeshare_Tugba.py
+bikeshare_tugba.py
 chicago.csv
 new_york_city.csv
 washington.csv
 
 ### Credits
-I used a lot of google searches.
+I used a lot of google searching for this project and Udacity Knowledge section to specific questions.
