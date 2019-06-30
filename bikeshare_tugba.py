@@ -185,23 +185,18 @@ def main():
         user_input1 = input('\nWould you like see time statistics for your filters?\nPlease enter yes or no\n').lower()
         if (user_input1 == 'yes'):
             time_stats(df)
-        else:
-            break
+
         user_input2 = input('\nWould you like see station statistics for your filters?\nPlease enter yes or no\n').lower()
         if (user_input2 == 'yes'):
             station_stats(df)
-        else:
-            break
+
         user_input3 = input('\nWould you like see trip duration statistics for your filters?\nPlease enter yes or no\n').lower()
         if (user_input3 == 'yes'):
             trip_duration_stats(df)
-        else:
-            break
+
         user_input4 = input('\nWould you like see some user statistics?\nPlease enter yes or no\n').lower()
         if (user_input4 == 'yes'):
             user_stats(df)
-        else:
-            break
 
         restart = input('\nWould you like to restart with new filters? Enter yes or no.\n')
         if restart.lower() != 'yes':
