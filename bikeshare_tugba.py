@@ -28,10 +28,10 @@ def get_filters():
 
 
     # TO DO: get user input for month (all, january, february, ... , june)
-    month = input('Enter a month from January to June or all: ' ).lower()
+    month = input('Enter a month from January to June: ' ).lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    day = input('Enter the desired day of the week or all: ' ).title()
+    day = input('Enter the desired day of the week: ' ).title()
 
     print('-'*40)
     return city, month, day
@@ -177,16 +177,28 @@ def user_stats(df):
 
 
 def main():
+
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
-        time_stats(df)
-        station_stats(df)
-        trip_duration_stats(df)
-        user_stats(df)
+        user_input1 = input('\nWould you like see time statistics for your filters?\nPlease enter yes or no\n').lower()
+        if (user_input1 == 'yes'):
+            time_stats(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        user_input2 = input('\nWould you like see station statistics for your filters?\nPlease enter yes or no\n').lower()
+        if (user_input2 == 'yes'):
+            station_stats(df)
+
+        user_input3 = input('\nWould you like see trip duration statistics for your filters?\nPlease enter yes or no\n').lower()
+        if (user_input3 == 'yes'):
+            trip_duration_stats(df)
+
+        user_input4 = input('\nWould you like see some user statistics?\nPlease enter yes or no\n').lower()
+        if (user_input4 == 'yes'):
+            user_stats(df)
+
+        restart = input('\nWould you like to restart with new filters? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
